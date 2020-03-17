@@ -14,7 +14,16 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     width: 100%;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin-top: 40px;
+
 }
 
 h3 {
@@ -25,16 +34,19 @@ h3 {
     letter-spacing: 0.01em;
 
 }
-input{
+input {
     background-color: rgba(255, 255, 255, 0.185);
     width: 50px;
     height: 30px;
     border: none;
+    border-radius: 6px;
     color: rgba(255, 255, 255, 0.185);
     cursor: pointer;
+    margin: 15px;
 }
 input:hover {
     width: 55px;
     height: 31px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
+ 
